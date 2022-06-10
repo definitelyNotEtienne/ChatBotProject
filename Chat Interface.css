@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #3a4052;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing{
+    color: #fff;
+}
+
+.header{
+    background: var(--primary-color);
+    width: 100%;
+    top: 0;
+    height: 66px;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.disclaimer{
+    background: var(--primary-color);
+    width: 100%;
+    height: 15px;
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+}
+
+.page-background{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 66px;
+    background: var(--primary-color) no-repeat center
+    center/cover;
+    display: flex;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    display: flex;
+    z-index: 1;
+}
+
