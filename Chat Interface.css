@@ -45,7 +45,6 @@ html, body{
     top: 66px;
     background: var(--primary-color) no-repeat center
     center/cover;
-    display: flex;
 }
 
 .Paimon-profile{
@@ -57,6 +56,11 @@ html, body{
     z-index: 2;
 }
 
+#border{
+    padding-inline-end: 40px;
+    padding-top: 66px;
+}
+
 .mask-custom {
     background: rgba(24, 24, 16, .2);
     border-radius: 2em;
@@ -64,14 +68,42 @@ html, body{
     border: 2px solid rgba(255, 255, 255, 0.05);
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+#paimon-header{
+    align-items: flex-start;
+    padding-left: 30px;
 }
 
 #paimon-profile{
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
+    padding: 0 25px;
+}
+
+#time{
+    font-style: oblique;
+    padding-left: 25px;
+}
+
+.card-body{
+    padding: 0 25px;
+}
+
+#times{
+    font-style: oblique;
+    padding-left: 25px;
 }
 
 #traveler-profile{
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
+    padding: 0 25px;
+}
+
+#traveler-header{
+    align-items: flex-start;
+    padding-left: 30px;
 }
