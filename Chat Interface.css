@@ -48,13 +48,30 @@ html, body{
     display: flex;
 }
 
-.footer{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    bottom: 0;
+.Paimon-profile{
+    border-radius: 50%;
     display: flex;
-    z-index: 1;
+    align-self: start;
+    box-shadow: 0 0 50px #ccc;
+    width: 60px;
+    z-index: 2;
 }
 
+.mask-custom {
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+#paimon-profile{
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#traveler-profile{
+    border-radius: 50%;
+    display: inline-block;
+}
