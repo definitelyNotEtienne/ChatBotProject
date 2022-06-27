@@ -1,0 +1,27 @@
+{
+  "current": "Do you play genshin?",
+  "Do you play genshin?":
+          [
+            {"keywords":["yes","absolutely","yeah","yup","nice"],"response":"So do I! Who do you play as?"},
+            {"keywords":["no","nope","never","nah","not"],"response":"Then why are you here?"},
+            {"keywords":["what","why"],"response":"Do you know what Genshin is?"}
+          ],
+  "So do I! Who do you play as?":
+  [
+    {"keywords":["everyone","every one","all"],"response":"Great choices! Do you want to hear more about my favourite char?"},
+    {"keywords":["no one","never","nah"],"response":"Then why are you here?"},
+    {"keywords":["lied","what is genshin"],"response":"Do you know what Genshin is?"}
+  ],
+  "Then why are you here?":
+  [
+    {"keywords":["yes","absolutely","yeah","yup","nice"],"response":"So do I! Who do you play as?"},
+    {"keywords":["lecturer","have to be"],"response":"Ah hello Mr. Proffessor! How has your day been?"},
+    {"keywords":["what","why"],"response":"Do you not know what Genshin is?"}
+  ],
+  "Do you know what Genshin is?":
+  [
+    {"keywords":["yes","absolutely","yeah","yup","nice"],"response":"So do I! Who do you play as?"},
+    {"keywords":["no","nope","never","nah","not"],"response":"Long ass text about what genshin is"},
+    {"keywords":["what","why"],"response":"Do you not know what Genshin is?"}
+  ]
+}
